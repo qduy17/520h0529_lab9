@@ -13,6 +13,13 @@ namespace lab9
 
         }
         [TestMethod]
+        public void TestMethod6()
+        {
+            Student student = new Student();
+            student.Score = 100;
+
+        }
+        [TestMethod]
         public void TestMethod1()
         {
             Student student = new Student();

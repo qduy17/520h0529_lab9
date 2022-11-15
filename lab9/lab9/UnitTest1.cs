@@ -5,7 +5,7 @@ namespace lab9
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
+        /*[TestMethod]
         public void TestMethod1()
         {
             Student student = new Student();
@@ -14,6 +14,18 @@ namespace lab9
             char ssScore = student.getLetterScore();
 
             Assert.AreEqual('A', ssScore);
+
+        }*/
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            Student student = new Student();
+            student.Score = 7;
+
+            char ssScore = student.getLetterScore();
+
+            Assert.AreEqual('B', ssScore);
 
         }
     }

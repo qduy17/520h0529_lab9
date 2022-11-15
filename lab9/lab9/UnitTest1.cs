@@ -28,5 +28,17 @@ namespace lab9
             Assert.AreEqual('B', ssScore);
 
         }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+            Student student = new Student();
+            student.Score = 5;
+
+            char ssScore = student.getLetterScore();
+
+            Assert.AreEqual('C', ssScore);
+
+        }
     }
 }

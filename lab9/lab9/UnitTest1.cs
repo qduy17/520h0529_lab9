@@ -19,6 +19,13 @@ namespace lab9
             student.Score = 100;
 
         }
+
+        public void TestMethod7()
+        {
+            Student student = new Student();
+            student.Score = -1;
+
+        }
         [TestMethod]
         public void TestMethod1()
         {
